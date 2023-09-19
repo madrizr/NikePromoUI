@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/racing-sans-one');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;                                            
+}
+h2{
+    font-size: 1rem;
+}
+.text-title{
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 5.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.9375rem; /* 86.364% */
+    letter-spacing: 0.275rem;
+    text-transform: capitalize;
+}
+.text-normal{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.back{
+    background: #02030E;
+    margin: 2rem 4.5rem;
+}
+
+.button{
+    outline: none;
+    border: none;
+    display: flex;
+    padding: 0.75rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 0.625rem;
+    background: #5D28DB;
+    cursor: pointer;
+    transition:  all 0.3s;
+}
+.button:hover{
+    background: #2DC7D9;
+    transition:  all 0.3s;
+}
+
+.marquee-black{
+    display: flex;
+    width: 98.22rem;
+    transform: rotate(6.068deg);
+    padding: 0.875rem 3.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+    background: #181924;
+}
+.marquee-green{
+    display: flex;
+    width: 98.22rem;
+    transform: rotate(-5.605deg);
+    padding: 0.875rem 3.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+    background: #7CC402;
+}
+.subtitles{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 2rem */
+    letter-spacing: 0.05rem;
+}
