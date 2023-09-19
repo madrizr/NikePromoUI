@@ -58,7 +58,7 @@
 }
 
 .marquee-wrapper{
-    animation: marqueeAnimation 10s linear 0s infinite; 
+    animation: marqueeAnimation 25s linear 0s infinite; 
 }
 
 .marquee .text-marquee{

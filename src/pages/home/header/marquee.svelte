@@ -75,7 +75,7 @@
 }
 
 .marquee-wrapper{
-    animation: marqueeAnimation 10s linear 0s infinite; 
+    animation: marqueeAnimation 25s linear 0s infinite; 
 }
 
 .marquee .text-marquee{
@@ -103,7 +103,7 @@
     transform: rotate(5.068deg) translateX(-5px);
     margin: 4rem 0;  
 }
-.marquee h3{
+.marquee .text-marquee{
     color: #FFF;
     font-family: Montserrat;
     font-size: 1rem;

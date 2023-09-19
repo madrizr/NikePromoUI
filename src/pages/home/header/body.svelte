@@ -28,13 +28,11 @@
     .tennis-container{
         display: flex;
         justify-content: center;
-
     }
     .grilla{
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         padding: 2rem 6rem 0 6rem;
-        overflow-x: unset;
         height: 30rem;
     }
     .tennis{
