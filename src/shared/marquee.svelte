@@ -73,7 +73,7 @@
  @media (max-width: 1320px){
     .marquee{
     position: absolute;
-    width: 1400px;
+    width: 1600px;
     padding: 0;
     overflow: hidden;
     background: #7CC402;
