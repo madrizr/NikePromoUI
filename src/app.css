@@ -83,7 +83,7 @@ h2{
 @media (max-width: 900px){
     .back{
         background: #02030E;
-        margin: 2rem 2rem;
+        margin: 0;
     }
     .text-title{
         font-family: 'Racing Sans One', sans-serif;

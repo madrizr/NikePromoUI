@@ -82,14 +82,12 @@
             text-align: center;
         }
         .tennis{
-            height: 25rem;
-            width: 35rem;
-            position: relative;
-            right: 0px;
-            top: 0px;
-            left: 0px;
-            bottom: 0px;
-            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 27rem;
+            width: 40rem;
+            position:unset;
             z-index: 1;
         }
     }
