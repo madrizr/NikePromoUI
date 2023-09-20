@@ -89,7 +89,7 @@
 
  @media (max-width: 1320px){
     .marquee{
-    width: 1400px;
+    width: 1500px;
     padding: 0;
     text-align: center;
     background: #181924;
