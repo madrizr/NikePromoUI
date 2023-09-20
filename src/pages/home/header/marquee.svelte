@@ -92,7 +92,6 @@
     width: 1400px;
     padding: 0;
     text-align: center;
-    overflow: hidden;
     background: #181924;
     transform: rotate(8.068deg) translateX(-5px);
     margin: 4rem 0;
