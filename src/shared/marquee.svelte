@@ -27,12 +27,6 @@
 </div>
 
 <style>
-    .text-marquee{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-    }
 .text-marquee span{
     margin: 0 2rem;
     color: #FFF;
@@ -76,20 +70,35 @@
 }
  /* ------------- Animacion Responsive -----------------*/
 
- @media (max-width: 992px){
+ @media (max-width: 1320px){
     .marquee{
-    width: 110%;
-    padding: .5rem;
-    text-align: center;
+    position: absolute;
+    width: 1400px;
+    padding: 0;
     overflow: hidden;
-    background: #181924;
-    transform: rotate(5.068deg) translateX(-5px);
-    margin: 4rem 0;  
+    background: #7CC402;
+    transform: rotate(-8.068deg) translateX(-5px);
+    position: absolute;
+    top: 4rem;
+      
+}
+.text-marquee{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-right: 0rem;
+    float: left;
+    transform: translateX(-800px);
 }
 .marquee .text-marquee{
     color: #FFF;
     font-family: Montserrat;
     font-size: 1rem;
+}
+.marquee-wrapper{
+    animation: marqueeAnimation 15s linear 0s infinite; 
 }
  }
 </style>

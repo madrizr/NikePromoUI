@@ -79,3 +79,15 @@ h2{
     line-height: 160%; /* 2rem */
     letter-spacing: 0.05rem;
 }
+
+@media (max-width: 900px){
+    .back{
+        background: #02030E;
+        margin: 2rem 2rem;
+    }
+    .text-title{
+        font-family: 'Racing Sans One', sans-serif;
+        font-size: 3.5rem;
+        line-height: 3.9375rem; /* 86.364% */
+    }
+}

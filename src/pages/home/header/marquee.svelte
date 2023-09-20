@@ -36,10 +36,9 @@
 
 <style>
 .text-marquee{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    margin-right: 1.5rem;
+    float: left;
+    transform: translateX(-500px);
 }
 .text-marquee span{
     margin: 0 2rem;
@@ -66,22 +65,17 @@
 .marquee{
     position: absolute;
     width: 120%;
-    padding: .5rem;
+    padding: .5rem 0;
     overflow: hidden;
     background: #181924;
     transform: rotate(6.068deg) translateX(-100px);
     margin: 5rem 0 0 0; 
     top: 0px; 
+    
 }
 
 .marquee-wrapper{
     animation: marqueeAnimation 25s linear 0s infinite; 
-}
-
-.marquee .text-marquee{
-    margin-right: 1.5rem;
-    float: left;
-    transform: translateX(-500px);
 }
 
 /* ---------------- ANIMACION ------------------- */
@@ -93,20 +87,29 @@
 }
  /* ------------- Animacion Responsive -----------------*/
 
- @media (max-width: 992px){
+ @media (max-width: 1320px){
     .marquee{
-    width: 110%;
-    padding: .5rem;
+    width: 1400px;
+    padding: 0;
     text-align: center;
     overflow: hidden;
     background: #181924;
-    transform: rotate(5.068deg) translateX(-5px);
-    margin: 4rem 0;  
+    transform: rotate(8.068deg) translateX(-5px);
+    margin: 4rem 0;
+      
+}
+.text-marquee{
+    margin-right: 0rem;
+    float: left;
+    transform: translateX(-800px);
 }
 .marquee .text-marquee{
     color: #FFF;
     font-family: Montserrat;
     font-size: 1rem;
+}
+.marquee-wrapper{
+    animation: marqueeAnimation 15s linear 0s infinite; 
 }
  }
 </style>
